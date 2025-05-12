@@ -1,0 +1,25 @@
+body{
+    color: darkcyan;
+    background-color: tan;
+}
+h1{
+    text-transform: uppercase;
+    color: chocolate;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+h2{
+    text-transform:capitalize;
+    color:#2cafdf;
+}
+/*paragraphes*/
+p{
+    text-align: justify;
+    background-color:white;
+    animation:backwards;
+}
+.gras{
+    font-weight: bold;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="color: rgb(74, 17, 154);">
+
+
+<fieldset border-style:dotted>
+    <legend> Etat civil </legend><!-- Titre du fieldset -->
+    
+    <form method="post" action="traitement.php">
+        <p>
+            <label >Maticule</label> : <input type="text" name="matricule" />
+           
+        </p>
+    </form> 
+    <form method="post" action="traitement.php">
+        <p>
+            <label>Nom</label> : <input type="text" name="Nom" />      
+          </p>
+    </form>
+    <form method="post" action="traitement.php">
+        <p>
+            <label>Prénom</label> : <input type="text" name="Prénom" /> 
+               </p>
+    </form>
+    <form  method="post" action="traitement.php">
+        <p>
+            <label>Sexe</label> : <input type="text" name="Sexe" />
+        </p>
+    </form>
+    <form  method="post" action="traitement.php">
+        <p>
+            <label>Date de naissance</label> : <input type="text" name="Date de naissance" />
+        </p>
+    </form>
+    <form  method="post" action="traitement.php">
+        <p>
+            <label>Lieu de naissance</label> : <input type="text" name="Lieu de naissance" />
+        </p>
+    </form>
+    <form  method="post" action="traitement.php">
+        <p>
+            <label>Age</label> : <input type="text" name="Age" />
+        </p>
+    </form>
+
+</fieldset>
+
+
+<fieldset border-style:double>
+    <legend>Mes diplômes</legend> <!--Titre du fieldset-->
+    <form method="post"  action="traiment.php">
+        <p>
+            Cochez les diplômes que vous avez :<br /> 
+          <input type="checkbox" name="CEP" id="CEP" /> <label for="CEP">CEP</label><br /> 
+          <input type="checkbox" name="BEPC" id="BEPC" /> <label for="BEPC">BEPC</label><br /> 
+          <input type="checkbox" name="BAC" id="BAC" /> <label for="BAC">BAC</label><br /> 
+          <input type="checkbox" name="LICENCE" id="LICENCE" /> <label for="LICENCE">LICENCE</label><br /> 
+
+        </p>
+
+    </form> 
+   
+
+</fieldset>
+
+
+<fieldset border-style:solid>
+    <Legend>Expertises</Legend>
+    <form method="post" action="traitement.php">
+        <p>
+            
+            <input type="checkbox" name="Expertise en IT" id="Epertise en IT" />
+            <label for="Expertise en IT">Expertise en IT</label><br />
+            <input type="checkbox" name="Expertise en bavardage" id="Epertise en bavardage" />
+            <label for="Expertise en bavardage">Expertise en bavardage</label><br />
+
+        </p>
+    </form>
+
+
+</fieldset>
+
+
+<fieldset >
+    <legend>Boutons</legend>
+    <form  method="post" action="traitement.php">
+        <p>
+            Choisir une option <br />
+            <input type="checkbox" name="Envoyer" id="Envoyer" /> <label for="Envoyer">Envoyer</label><br /> 
+            <input type="checkbox" name="Effacer" id="Effacer" /> <label for="Effacer">Effacer</label><br /> 
+            <input type="checkbox" name="Retour" id="Retour" /> <label for="Retour">Retour</label><br /> 
+
+        </p>
+    </form>
+
+
+</fieldset>
+</body>
+</html>

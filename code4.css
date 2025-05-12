@@ -1,0 +1,94 @@
+
+.cercle
+{
+list-style-type: circle;
+}
+.carre
+{
+list-style-type:square;
+}
+.rien
+{
+list-style-type: none;
+}
+XHTML-CSS Page 47
+47
+.commence_a_zero
+{
+list-style-type: decimal-leading-zero;
+}
+.lettres_minuscules
+{
+list-style-type: lower-alpha;
+}
+.chiffres_romains
+{
+list-style-type: upper-roman;
+}
+.lettres_grecques
+{
+list-style-type: lower-greek;
+}
+
+h2
+{
+text-indent: 20px;
+font-family: Arial, Verdana, "Times New Roman", serif;
+}
+em
+{
+background-color: yellow;
+}
+strong
+{
+color: red;
+}
+
+{
+list-style-image: url("dossier.png");
+}
+
+a
+{
+color: blue;
+text-decoration: none;
+XHTML-CSS Page 48
+48
+}
+a:hover
+{
+text-decoration: underline;
+}
+p{
+    width: 50%;
+    text-align: justify; /* Texte justifié pour mieux voir la largeur du block */
+    }
+    p{
+        width: 250px; 
+        height: 100px; 
+        text-align: justify;
+        }
+        }/* Et chacun des paragraphes aura en plus une valeur d'overflow différente */
+.coupe{
+    overflow: hidden;
+    }
+    .barres_defilement{
+    overflow:scroll;
+    }
+    .auto{
+    overflow: auto;
+    }
+
+
+    p{
+    width: 350px;
+    border: 1px solid black;
+    text-align: justify;
+    padding: 12px;
+    margin-bottom: 50px;
+    }
+    h1
+    {
+    margin-left: 30px;
+    }
+        
